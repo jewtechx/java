@@ -1,0 +1,6 @@
+email = input("Enter your email:")
+(username,domain) = email.split("@")
+(domain,extension) = domain.split('.')
+print(username)
+print(domain)
+print(extension)
